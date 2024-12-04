@@ -34,10 +34,10 @@ A Python project that parses web server logs, analyzes them, and generates a rep
     
 ## Output
 
- ## The report.txt file contains:
+  The report.txt file contains:
 
-  ### Endpoint hits sorted by popularity.
-  ### Login failure attempts grouped by IP addresses.
+   Endpoint hits sorted by popularity.
+   Login failure attempts grouped by IP addresses.
     
 ### Example Format: 
     Endpoint Hits:
