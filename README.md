@@ -9,3 +9,38 @@ A Python project that parses web server logs, analyzes them, and generates a rep
    ### Most accessed endpoints.
    ### Failed login attempts grouped by IP addresses.
    ### Report Generation: Outputs a detailed report in report.txt.
+
+## Directory Structure
+    Myproject/
+    │
+    ├── utils/
+    │   ├── parser.py       # Contains functions for parsing logs.
+    │   ├── analyzer.py     # Contains functions for analyzing parsed logs.
+    │
+    ├── logs.txt            # Input log file.
+    ├── main.py             # Main script to execute the project.
+    ├── report.py           # Functions for generating reports.
+    ├── requirements.txt    # Python dependencies for the project.
+    ├── README.md           # Project documentation.
+
+## Input Format
+    <IP address> - - [<timestamp>] "<HTTP method> <endpoint> <protocol>" <status code> <response size>
+    
+## Output
+
+ ## The report.txt file contains:
+
+  ### Endpoint hits sorted by popularity.
+  ### Login failure attempts grouped by IP addresses.
+    
+### Example Format: 
+    Endpoint Hits:
+    1. /home: 10 hits
+    2. /login: 8 hits
+    3. /about: 5 hits
+
+    Login Failures:
+    1. 203.0.113.5: 4 attempts
+    2. 192.168.1.1: 2 attempts
+
+
