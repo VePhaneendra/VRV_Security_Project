@@ -1,0 +1,13 @@
+Log Analysis Report
+===================
+
+Status Counts:
+
+Endpoint Hits:
+/home: 1
+/login: 1
+/about: 1
+/contact: 1
+
+Login Failures:
+No login failures recorded.
