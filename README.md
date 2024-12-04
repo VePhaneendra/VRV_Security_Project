@@ -25,6 +25,12 @@ A Python project that parses web server logs, analyzes them, and generates a rep
 
 ## Input Format
     <IP address> - - [<timestamp>] "<HTTP method> <endpoint> <protocol>" <status code> <response size>
+## Example Log Entries:
+     192.168.1.1 - - [03/Dec/2024:10:12:34 +0000] "GET /home HTTP/1.1" 200 512
+    203.0.113.5 - - [03/Dec/2024:10:12:35 +0000] "POST /login HTTP/1.1" 401 128 "Invalid credentials"
+    10.0.0.2 - - [03/Dec/2024:10:12:36 +0000] "GET /about HTTP/1.1" 200 256
+
+    
     
 ## Output
 
